@@ -40,3 +40,17 @@ if(z==a){console.log("z and a variables are equals : ")};
 if(z>a){console.log("z is greater than a")};
 if(z<a){console.log("z is less than a")};
 
+//Excersie 6
+
+let array1=[];
+console.log("I will see empty [] on console");
+console.log(array1);
+let animals=["Deer", "Elephant", "Gorilla"];
+console.log(animals);
+
+
+//Excersie 7
+let mySentence="Programming is so interesting!";
+console.log("mySentence length is : "+ mySentence.length);
+
+
