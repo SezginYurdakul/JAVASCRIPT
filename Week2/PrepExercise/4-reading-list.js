@@ -1,3 +1,31 @@
+const bookList=[
+    {
+       title:"The Great Gatsby"   
+      ,author:"F. Scott Fitzgerald"   
+      ,alreadyRead:false
+    },
+    {
+        title: "In Search of Lost Time " 
+        ,author:"Marcel Proust"   
+        ,alreadyRead:false
+    },
+    {
+        title: "Crime and Punishment " 
+        ,author: "Fyodor Dostoevsky"  
+        ,alreadyRead:true
+    }
+]
+
+for (let i in bookList) {
+
+    const book = bookList[i];
+    if (book.alreadyRead) {
+        console.log(book.title + " by "+ book.author + " .You already read " + book.title+ ".");
+    } else {
+        console.log(book.title + " by "+ book.author +  " .You still need to read "+ book.title+".");
+    }
+}
+
 /**
  * Keep track of which books you read and which books you want to read!
  *  
