@@ -1,3 +1,22 @@
+const pilavRecipe = {};
+
+pilavRecipe.title="Pilav";
+pilavRecipe.servings=5;
+pilavRecipe.ingredients=["500 gr rice","1/2 spoon salt", "2 spoon butter", "3 cup of water"];
+
+    for (let item in pilavRecipe) {
+    if (item == 'title') {
+        console.log("Meal name: "+pilavRecipe[item]);
+    } else if (item == 'servings') {
+        console.log("Serves: "+pilavRecipe[item]);
+    } else {
+        const IngedientList = pilavRecipe[item];
+
+        console.log("Ingedients: " +IngedientList.join(', '));
+    }
+}
+
+
 /**
  * Ever wondered how to make a certain meal? Let's create a recipe list with JavaScript!
  *   
